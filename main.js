@@ -59,7 +59,7 @@ function setUserInfoCookie(key, value) {
 
 // Демонстрація використання функції
 setUserInfoCookie('language', 'en');
-document.write(setUserInfoCookie('language', 'en') + '<br>');
+document.write(`Виводить файли cookie в консоль з ключьом language та значенням en на 10 сек.<br>`);
 
 /*
  * #3
